@@ -8,7 +8,7 @@ terraform {
     }
   }
 
-  cloud {
+  backend cloud {
     organization = "gh-task"
 
     workspaces {
