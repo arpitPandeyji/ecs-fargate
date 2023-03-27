@@ -6,7 +6,7 @@ var app = express();
 app.set("port", process.env.PORT || 80);
 
 app.get('/', function(req, res){
-  res.send('Hello World TO ALIENS');
+  res.send('Hello World to Cloud');
 });
 
 /* istanbul ignore next */
